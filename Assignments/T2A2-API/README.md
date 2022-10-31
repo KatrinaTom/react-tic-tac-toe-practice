@@ -166,7 +166,7 @@ _
 ## Requirement 5<a name="req5"></a>
 **Document all endpoints for your API**
 
-![Entity Relational Diagram of Landscaping ADMIN database](Assignments/T2A2-API/images/Landscaping_T2A2.png)
+
 
 _
 
@@ -174,7 +174,7 @@ _
 ## Requirement 6<a name="req6"></a>
 **An ERD for your app**
 
-
+![Entity Relational Diagram of Landscaping ADMIN database](Assignments/T2A2-API/images/Landscaping_T2A2.png)
 _
 
 
