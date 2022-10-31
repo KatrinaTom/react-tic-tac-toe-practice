@@ -184,6 +184,33 @@ _
 ## Requirement 8<a name="req8"></a>
 **Describe your projects models in terms of the relationships they have with each other**
 
+Cardinality defines the numerical attributes of the relationship between two entities.
+
+Different types of cardinal relationships are:
+* One-to-One Relationships
+* One-to-Many Relationships
+* Many-to-Many Relationships
+
+**Cardinality**
+
+1. Customers book a Service
+- Customers book Services that requires a Reference Id (to track the status) (One-to-Many relationship)
+- A customer can request multiple quotes, or have a quote and a job in progress or completed.
+- There can only be one Reference of a job per customer
+
+2. Service (lawn care/garden care) belong to a Reference of a Job
+- A Service belongs to a Reference of the Job (For the customer). 
+- A customer can requesr lawn care and or garden care.
+- One to many (One service (lawn care and or garden care) on the Reference of the job, otherwise it becomes another job.
+
+3. Reference status belongs to a Reference of a job.
+- A reference status can belong to a reference of a job, one at a time (this is a one to one relationship).
+- A reference of a job can not be in progress and completed at the same time.
+  
+4. An Employee belongs to a Reference of a job
+- An Employee belongs to a Reference of a job. 
+- An employee can have a many-to-many relationship with reference of a job.
+- An employee can quote a job and own that reference, they can be in progress of a job and then can have completed a job.
 _
 
 ## Requirement 9<a name="req9"></a>
