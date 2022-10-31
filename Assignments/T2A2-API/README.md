@@ -118,12 +118,12 @@ What does it need to do? Below is a list of requirements.
 * Book a job for a customer
 * Select the type of job for the customer
 * Add a new user to access the Admin Portal
-* Update a job (update/ cancel) 
+* Update a job (update/ cancel)
 * Invoice a customer from their completed job
 
-Already from the list above, if this was done manually, it would create human errors. 
+Already from the list above, if this was done manually, it would create human errors.
 
-This is a problem to solve I want to solve as a future business owner that expects this business to grow successfully.
+This is a problem I want to solve as a future business owner that expects this business to grow successfully and ensure privacy/security of data.
 
 _
 
@@ -136,7 +136,7 @@ Reason for this type of database is that it is characterized by its intuitive re
 
 However without reviewing other types of databases I wouldn’t have been able to come to this conclusion.
 
-A comparison between a Relational Database Management System and a Non-Relational Database Management System, the only drawback I could find is the potentia complexity of a relational database. Especially when it comes to storing data in a tabular form, which can make it difficult to represent complex relationships between objects.
+A comparison between a Relational Database Management System and a Non-Relational Database Management System, the only drawback I could find is the potential complexity of a relational database. Especially when it comes to storing data in a tabular form, which can make it difficult to represent complex relationships between objects.
 
 ![Comparing Relational Database Management Systems](/images/DBMS_Compare.png)
 
@@ -153,10 +153,10 @@ ORM, Object Relational Mapping refers to a library that implements the technique
 
 Even though there is still a need for a fundamental understanding of SQL and databases when using an ORM.
 
-Benefits of an ORM is:
+Benefits of an ORM are:
 
-* That you can write in your chosen programming language
-* Abstracts away from the database system so that there is no need to switch from MySQL to PostgreSQL
+* That you can write in your chosen programming language. In this case using Python as the Programming Language.
+* Abstracts away from the database system so that there is no need to switch from MySQL to PostgreSQL.
 * There are a lot of advanced features that support transactions, connection pooling, migratations, and seeds as an example.
   
 In this project, the ORM we will be using is **SQLAlchemy**.
@@ -214,7 +214,7 @@ Columns in Trello:
 
 * High Level Project Requirements: All the other columns would need to be completed before these high level project requirements are marked as done. This would be considered the epics of the project.
 * Phase 1 - Design Backlog: Initial steps of understanding what needs to be built and why. By working through these initial requirements, the project is understood and designed, database identified, documented and any additional requirements considered.
-* Phase 2 - Development Backlog: With a focus on the OOP programming paradigm, this column is for development tickets.
+* Phase 2 - Development Backlog: With a focus on the OOP programming paradigm, this column is for development cards.
 * In Progress: Actively working on the card in this column, to complete the acceptance criteria.
 * Testing: During development, Test Driven Development is considered. The development cards include the testing so that it is a continuous process. Including unit testing and end to end testing manually as a sanity check/ regression testing.
 * Completed/Done: All acceptance criteria in the card is marked as completed, then the card can be moved to this column and progress tracked.
