@@ -19,23 +19,22 @@ ____________________________________
 * [Brief](#brief) 
 
 ### Project Planning
-*Through the use of Trello, the project is tracked in Phases*
+With the use of Trello, the project is tracked in Phases
 
-[Phase 1: Project Planning](#phase1)
+[Phase 1: Design of Database](#phase1)
 
 * [Requirement 1](#req1)
 * [Requirement 2](#req2)
 * [Requirement 3](#req3)
 * [Requirement 4](#req4)
+* [Requirement 5](#req5)
+* [Requirement 6](#req6)
+* [Requirement 7](#req7)
+* [Requirement 8](#req8)
+* [Requirement 9](#req9)
+* [Requirement 10](#req10)
 
-
-* Phase 2: Design of Database
-* Phase 3: Development (Software Development Plan)
-* Phase 4: Testing 
-
-(*Phase 3, see Software Development Plan*)
-
-### Software Development Plan
+[Phase 2: Software Development Plan](#phase2)
 1. Overview of Project
 2. Set Up (incl. Third Party Dependencies)
 3. Development
@@ -72,7 +71,7 @@ ____________________________________
 [Link to Project Tracking (Trello)](https://trello.com/invite/b/06cHHz3x/ATTI6045b9cf1328ade946408c89e0871c76D3A87865/api-web-server-project)
 
 
-## Phase 1: Project Planning<a name="phase1"></a>
+## Phase 1: Design of Database<a name="phase1"></a>
 
 **Documentation Requirements**
 
@@ -139,7 +138,12 @@ However without reviewing other types of databases I wouldn’t have been able t
 
 A comparison between a Relational Database Management System and a Non-Relational Database Management System, the only drawback I could find is the potentia complexity of a relational database. Especially when it comes to storing data in a tabular form, which can make it difficult to represent complex relationships between objects.
 
+![Comparing Relational Database Management Systems](/images/DBMS_Compare.png)
+
+Image from Medium, 2020, "Document vs Relational Databases"
+
 However there are more advantages in this case to use a Relational Database Management System than any other database management system due the nature of the data for this project.
+
 _
 
 ## Requirement 4<a name="req4"></a>
@@ -156,3 +160,69 @@ Benefits of an ORM is:
 * There are a lot of advanced features that support transactions, connection pooling, migratations, and seeds as an example.
   
 In this project, the ORM we will be using is **SQLAlchemy**.
+
+_
+
+## Requirement 5<a name="req5"></a>
+**Document all endpoints for your API**
+
+
+_
+
+
+## Requirement 6<a name="req6"></a>
+**An ERD for your app**
+
+_
+
+
+## Requirement 7<a name="req7"></a>
+**Detail any third party services that your app will use**
+
+_
+
+## Requirement 8<a name="req8"></a>
+**Describe your projects models in terms of the relationships they have with each other**
+
+_
+
+## Requirement 9<a name="req9"></a>
+**Discuss the database relations to be implemented in your application**
+
+_
+
+## Requirement 10<a name="req10"></a>
+**Describe the way tasks are allocated and tracked in your project**
+
+Through the use of a task management system called Trello, the project is tracked.
+
+[Link to Project Tracking (Trello)](https://trello.com/invite/b/06cHHz3x/ATTI6045b9cf1328ade946408c89e0871c76D3A87865/api-web-server-project)
+
+Split out into two Phases.
+
+**Phase 1**
+
+Is for Designing the API Web Server. Documenting requirements from 1 to 10. This is part of planning the project before Development can commence.
+
+**Phase 2**
+
+Is for Development of the API Web Server. With the foundations of the design clearly identified, the development can begin.
+
+Tracking of the project includes:
+
+Columns in Trello:
+
+* High Level Project Requirements: All the other columns would need to be completed before these high level project requirements are marked as done. This would be considered the epics of the project.
+* Phase 1 - Design Backlog: Initial steps of understanding what needs to be built and why. By working through these initial requirements, the project is understood and designed, database identified, documented and any additional requirements considered.
+* Phase 2 - Development Backlog: With a focus on the OOP programming paradigm, this column is for development tickets.
+* In Progress: Actively working on the card in this column, to complete the acceptance criteria.
+* Testing: During development, Test Driven Development is considered. The development cards include the testing so that it is a continuous process. Including unit testing and end to end testing manually as a sanity check/ regression testing.
+* Completed/Done: All acceptance criteria in the card is marked as completed, then the card can be moved to this column and progress tracked.
+
+_ 
+
+
+# Development
+
+## Phase 2: Software Development Plan<a name="phase2"></a>
+
