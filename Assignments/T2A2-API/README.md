@@ -26,6 +26,7 @@ ____________________________________
 * [Requirement 1](#req1)
 * [Requirement 2](#req2)
 * [Requirement 3](#req3)
+* [Requirement 4](#req4)
 
 
 * Phase 2: Design of Database
@@ -102,7 +103,7 @@ _
 **Why is it a problem that needs solving?**
 
 There are other methods to start a customer database, however I can imagine it would create more problems in the future as the business grows.
-If I did not create a database, It would be difficult to expand. Such as tracking customers, add staff and invoicing would be very difficult.
+If I did not create a database, It would be difficult to expand. Such as tracking customers, add staff and invoicing would be very difficult and time consuming. 
 
 To make sure I am on the right track that this is a problem that needs solving, I asked myself (as the potential business owner) the following question:
 
@@ -112,7 +113,7 @@ What does it need to do? Below is a list of requirements.
 
 **Landscaping Business - Build a API Web Server Admin Portal:**
 
-* Log in (securely)
+* Log in (securely) - To protect myself and my customer information.
 * Enter in a new customer
 * Search for an existing customer
 * Book a job for a customer
@@ -121,9 +122,37 @@ What does it need to do? Below is a list of requirements.
 * Update a job (update/ cancel) 
 * Invoice a customer from their completed job
 
-Already the list above, if this was done manually, it would create human errors. This is a problem to solve now as a future business owner.
+Already from the list above, if this was done manually, it would create human errors. 
+
+This is a problem to solve I want to solve as a future business owner that expects this business to grow successfully.
 
 _
 
 ## Requirement 3<a name="req3"></a>
 **Why have you chosen this database system. What are the drawbacks compared to others?**
+
+The chosen database for this project is a **Relational Database Management System**.
+
+Reason for this type of database is that it is characterized by its intuitive relationships of representing data in tables. Especially for a business where the importance of data integrity is integral.
+
+However without reviewing other types of databases I wouldn’t have been able to come to this conclusion.
+
+A comparison between a Relational Database Management System and a Non-Relational Database Management System, the only drawback I could find is the potentia complexity of a relational database. Especially when it comes to storing data in a tabular form, which can make it difficult to represent complex relationships between objects.
+
+However there are more advantages in this case to use a Relational Database Management System than any other database management system due the nature of the data for this project.
+_
+
+## Requirement 4<a name="req4"></a>
+**Identify and discuss the key functionalities and benefits of an ORM**
+
+ORM, Object Relational Mapping refers to a library that implements the technique to write the query in your chosen programming language rather than relying on SQL to execute a query.
+
+Even though there is still a need for a fundamental understanding of SQL and databases when using an ORM.
+
+Benefits of an ORM is:
+
+* That you can write in your chosen programming language
+* Abstracts away from the database system so that there is no need to switch from MySQL to PostgreSQL
+* There are a lot of advanced features that support transactions, connection pooling, migratations, and seeds as an example.
+  
+In this project, the ORM we will be using is **SQLAlchemy**.
