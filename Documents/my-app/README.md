@@ -13,7 +13,7 @@ Practice Included the following React Concepts
 ## Images of Game
 
 ![Image 1](Image1.png)
-![Image 2(Image2.png
+![Image 2](Image2.png)
 
 
 Congratulations! You’ve created a tic-tac-toe game that:
